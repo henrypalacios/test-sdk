@@ -7,17 +7,9 @@
       "skipLibCheck": true,
       "forceConsistentCasingInFileNames": true,
       "declaration": true,
+      "resolveJsonModule": true,
       "outDir": "./dist",
-      "baseUrl": "../",
-      "paths": {
-        "@/*": [
-          "xsigners_sdk/src/*"
-        ],
-        "@typed_contracts/*": [
-          "typed_contracts/*"
-        ]
-
-      },
+      "baseUrl": "./src",
     },
     "include": ["src/**/*.ts"],
     "exclude": ["node_modules"]
